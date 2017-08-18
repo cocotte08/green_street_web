@@ -1,0 +1,191 @@
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+.vertical-spacer {
+  height: 2em;
+}
+/* WRAPPER
+-------------------------------------------------- */
+#home.wrapper{
+  background-image: url('../images/fotolia_157236611.jpg');
+  background-repeat: no-repeat;
+  height: 650px;
+  background-size: cover;
+  padding-top: 80px;
+  text-align: center;
+  color: white;  
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Bootstrap navbar */
+
+.navbar{
+  border-color: transparent;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-bottom: 0.5em solid black;
+  padding: 8px;
+}
+.navbar-fixed-top .navbar-brand,
+.navbar-fixed-top .navbar-nav > li>a {
+  color: #16aa7a;
+}
+ul.nav.navbar-nav.navbar-right{
+  font-size: 20px;
+}
+.navbar-brand{
+  padding: 0px;
+}
+#logo1{
+  margin-right: 20px;
+  margin-left: 15px;
+}
+.dropdown-menu {
+  text-transform: none;
+  border: none;
+  border-radius: 0px;
+}
+.dropdown-menu>li>a{
+  color: #16aa7a;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: white;
+}
+/* Button */
+a#contact-button.btn.btn-primary.btn-lg{
+  background-color: rgba(90,143,168,0.3);
+  color: #ffffff;
+  border :2px solid;
+  border-radius: 0px;
+  font-size: 22px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+#contact-button.btn.btn-primary.btn-lg:hover{
+background: #16aa7a;
+border:0px;
+}
+#baseline{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+/*H*/
+
+h2{
+  color:#16aa7a;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  white-space: nowrap;
+}
+h3{
+	color: black;
+  font-weight: bold;
+}
+h4{
+	font-size: 20px;
+  color: black;
+	font-weight: bold;
+}
+
+/*footer*/
+
+[role="contentinfo"]{
+  border-top: 0.5em solid black;
+  background-color: #16aa7a;
+  color: #fff;
+  margin: auto 0 0;
+  padding: 1.5em 1em;
+}
+#logo2{
+	margin-right: 30px;
+}
+li{
+	list-style: none;
+}
+div.col-xs-12.col-md-4.tarif{
+  border: 0.1em solid #16aa7a;
+  vertical-align: middle;
+  margin: 10px;
+  width: 350px;
+  text-align: center;
+}
+p.tarif{
+  text-align: center;
+}
+a.tarif.btn.btn-primary.btn-lg{
+  background-color: #16aa7a;
+  color: #ffffff;
+  border :none;
+  border-radius: 0px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tarif.btn.btn-primary.btn-lg:hover{
+opacity: .75;
+border:0px;
+}
+p.tarif{
+  margin: 0px
+}
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+#footer a:hover {
+  color : white;
+}
+#footer i.fa.fa-facebook-square {
+  font-size: 25px;
+}
+a#facebook{
+  color: black;
+  font-size: 16px;
+}
+#permis li {
+  list-style: inherit;
+}
+/* Featurettes */
+
+.featurette-divider {
+  margin: 30px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+img.featurette-image.img-responsive.center-block{
+  border-radius:50%;
+  width:200px;
+}
+#greenstreet{
+  font-size: 24px;
+  line-height: 2;
+  text-align: center;
+  background-color: #16aa7a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #fff;
+}
