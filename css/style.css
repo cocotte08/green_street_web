@@ -16,7 +16,7 @@ body{
   text-align: center;
   color: white;  
 }
-#offres.wrapper{
+.offres.wrapper{
   background-color: #16aa7a;
   height: 275px;
   background-size: cover;
