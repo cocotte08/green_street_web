@@ -148,19 +148,6 @@ div.col-xs-12.col-md-3.tarif{
 p.tarif{
   text-align: center;
 }
-a.tarif.btn.btn-primary.btn-lg{
-  background-color: #16aa7a;
-  color: #ffffff;
-  border :none;
-  border-radius: 0px;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.tarif.btn.btn-primary.btn-lg:hover{
-opacity: .75;
-border:0px;
-}
 p.tarif{
   margin: 0px
 }
