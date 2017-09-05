@@ -16,6 +16,15 @@ body{
   text-align: center;
   color: white;  
 }
+#offres.wrapper{
+  background-color: #16aa7a;
+  height: 275px;
+  background-size: cover;
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -77,6 +86,15 @@ a#contact-button.btn.btn-primary.btn-lg{
 background: #16aa7a;
 border:0px;
 }
+a#myButton.btn.btn-primary.btn-lg{
+  background-color: #16aa7a;
+  color: #ffffff;
+  border :none;
+  border-radius: 0px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 #baseline{
   color: #ffffff;
   font-size: 30px;
@@ -119,12 +137,13 @@ h4{
 li{
 	list-style: none;
 }
-div.col-xs-12.col-md-4.tarif{
+div.col-xs-12.col-md-3.tarif{
   border: 0.1em solid #16aa7a;
   vertical-align: middle;
   margin: 10px;
-  width: 350px;
+  width: 250px;
   text-align: center;
+  font-size: 12px;
 }
 p.tarif{
   text-align: center;
@@ -176,7 +195,6 @@ a#facebook{
 }
 img.featurette-image.img-responsive.center-block{
   border-radius:50%;
-  width:200px;
 }
 #greenstreet{
   font-size: 24px;
@@ -188,4 +206,7 @@ img.featurette-image.img-responsive.center-block{
   padding-left: 50px;
   padding-right: 50px;
   color: #fff;
+}
+#conduite li {
+  list-style: inherit;
 }

@@ -38,7 +38,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			 <ul class="nav navbar-nav navbar-left">
-				<li><a href="quisommesnous.html">Notre philosophie</a></li>
+				<li><a href="quisommesnous.html">Notre philosophie ?</a></li>
 				<!-- <li><a href="realisations.html">Nos offres de permis</a></li> -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">nos offres de permis <span class="caret"></span></a>
@@ -48,8 +48,8 @@
 						<li><a href="conduite-accompagnee.html">Conduite accompagnée</a></li>
 						<li><a href="conduite-supervisee.html">Conduite supervisée</a></li>
 					</ul>
-				</li>        
-			  <li><a href="actu.html">boite à outils</a></li>
+				</li>          
+			 <!--  <li><a href="actu.html">actualités</a></li> -->
 				<li><a data-toggle="modal" href="#contactform">nous contacter</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -60,86 +60,79 @@
 	</div><!-- /.container-fluid -->
 </nav>
 
-
-<div id="home" class="wrapper">
-	<div class="lead">    
-			<h1 id="baseline">Vous souhaitez passer votre permis ?</h1>
-			<div><a data-toggle="modal" href="#contactform" id="contact-button" class="btn btn-primary btn-lg">s'inscrire</a></div>
+<div id="accompagne" class="wrapper">
+	<div class="lead">  
+		<h1>Conduite supervisée</h1>
+		<img class="featurette-image img-responsive center-block" src="images/logo_conduite_supervisee.png" alt="Generic placeholder image" width="100px">
 	</div>
 </div>
-
-<div class="vertical-spacer"></div>
-
-<div class="container">
-	<div class="col-xs-12 col-md-3 tarif">
-		<h2>Permis de conduire<br>pack green</h2>
-			<p class="tarif">Cours de code à l'auto-école et en ligne</p>
-			<p class="tarif">Un minimum de 13h de cours de conduite sur véhicule électrique</p>
-			<p class="tarif">Dossier d'inscription à l'examen</p>
-			<br>
-			<div><a href="permis-boite-automatique.html" id="myButton" class="btn btn-primary btn-lg">à partir de 820€</a></div>
-	</div>
-	<div class="col-xs-12 col-md-3 tarif">
-		<h2>Permis de conduire<br>pack street</h2>
-			<p class="tarif">Cours de code à l'auto-école et en ligne</p>
-			<p class="tarif">Un minimum de 20h de cours de conduite sur véhicule bioéthanol</p>
-			<p class="tarif">Dossier d'inscription à l'examen</p>
-			<br>
-			<div><a href="permis-auto.html" id="myButton" class="btn btn-primary btn-lg">à partir de 1 120€</a></div>
-	</div>    
-	<div class="col-xs-12 col-md-3 tarif">
-		<h2>Conduite <br>accompagnée</h2>
-			<p class="tarif">Cours de code à l'auto-école et en ligne</p>
-			<p class="tarif">Un minimum de 13h ou 20h de cours de conduite sur véhicule électrique ou bioéthanol</p>
-			<p class="tarif">Dossier d'inscription à l'examen</p>
-			<div><a href="conduite-accompagnee.html" id="myButton" class="btn btn-primary btn-lg">à partir de 1 120€</a></div>
-	</div>
-	<div class="col-xs-12 col-md-3 tarif">
-		<h2>conduite <br>supervisée</h2>
-			<p class="tarif">Cours de code à l'auto-école et en ligne</p>
-			<p class="tarif">Un minimum de 13h ou 20h de cours de conduite sur véhicule électrique ou bioéthanol</p>
-			<p class="tarif">Dossier d'inscription à l'examen</p>
-			<div><a href="conduite-supervisee.html" id="myButton" class="btn btn-primary btn-lg">à partir de 1 120€</a></div>
-	</div>
-
-</div>
-
-<div class="vertical-spacer"></div>
-
-<div class="w3-container">
-	<div id="greenstreet">
-			<h2><span class="text-muted">Grégory Méraud, fondateur de Green Street</span></h2>
-			 <p class="lead">Depuis 20 ans, Grégory enseigne la conduite automobile et fait partager à ses élèves sa passion pour la route.<br>Il ne voulait pas d'une auto-école comme les autres. <br>En plus d'être une auto-école, Green Street accueille deux autres entreprises : Bunker Scootering et MyArtist.fr <br>C'est donc un lieu ouvert où l'on peut aussi tout simplement partager un moment.</p>
-	</div>
-</div>
-
-<div class="vertical-spacer"></div>
 
 <div class="container">
 
-			<!-- <hr class="featurette-divider"> -->
+<div class="content">
+<p>La formation en conduite supervisée est une forme de conduite accompagnée réservée aux personnes âgées de plus de 18 ans. Elle s’applique à la catégorie B du permis de conduire. Elle peut se faire soit directement à l’issue de la formation initiale (obtention du code de la route), soit après un échec à l’épreuve pratique de l’examen du permis de conduire. Elle implique une durée et un kilométrage parcouru minimaux ainsi que le respect de règles de conduite particulières.</p>
+</div>
 
-			<div class="row featurette">
-				<div class="col-md-7 col-md-push-5">
-					<h2 class="featurette-heading">Bunker Scootering, <span class="text-muted">pièces détachées pour trotinnettes.</span></h2>
-					<p class="lead">Jeune meudonnais, Phileo a créé son entreprise de pièces détachées pour trottinettes, Bunker Scootering. Ces produits sont en vente chez Green Street.</p>
-				</div>
-				<div class="col-md-5 col-md-pull-7">
-					<img class="featurette-image img-responsive center-block" src="images/bunker_scootering.jpg" alt="Generic placeholder image" width="200px">
-				</div>
-			</div>
+<hr class="featurette-divider">
 
-			<hr class="featurette-divider">
+<div class="content">
+	<h2>Quelles sont les conditions d'accès ?</h2>
+<p>Pour commencer la conduite supervisée, il faut :</p>
+	<ul>
+		<li>être inscrit auprès d’un établissement d’enseignement de la conduite ;</li>
+		<li>avoir fait par le biais de cet établissement une demande de permis de conduire auprès de la préfecture ;</li>
+		<li>avoir suivi au préalable la formation initiale.</li>
+	</ul>
+</div>
 
-			<div class="row featurette">
-				<div class="col-md-7">
-					<h2 class="featurette-heading">My Artist, <span class="text-muted">Oeuvres d'art personnalisées</span></h2>
-					<p class="lead">MyArtist.fr est un site Internet d'art en ligne dont l'objectif est de mettre en relation des artistes et des particuliers ou des entreprises pour de la commande d’œuvres d'art personnalisées mais également de l'achat en direct.</p>
-				</div>
-				<div class="col-md-5">
-					<a href="http://myartist.fr" target="blank"><img class="featurette-image img-responsive center-block" src="images/myartist.jpg" alt="Generic placeholder image" width="250px"></a>          
-				</div>
-			</div>
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>Qui peut être accompagnateur ?</h2>
+<p>L'accompagnateur doit :</p>
+	<ul>
+		<li>être titulaire du permis de conduite de catégorie B depuis au moins 5 ans sans interruption ;</li>
+		<li>ne pas avoir fait l’objet d’une annulation ou d’une invalidation du permis de conduire durant les 5 années précédentes.</li>
+	</ul>
+</div>
+
+<hr class="featurette-divider">
+
+<div>
+<h2>Dans quels cas choisir ce type de formation ?</h2>
+<p>Dès que le candidat a achevé sa formation initiale, et dans ce cas, il doit avoir obtenu</p>
+	<ul>
+		<li>un accord préalable sur l’extension de garantie nécessaire de la société d’assurance qui assure le ou les véhicules utilisés pendant l’apprentissage ;</li>
+		<li>et l’attestation de fin de formation (AFFI) prévue dans le livret d’apprentissage.</li>
+	</ul>
+<p> ou après un échec à l'épreuve pratique de l'examen du permis de conduire, et dans ce cas, il doit avoir obtenu :</p>
+	<ul>
+		<li>un accord préalable écrit de la société d’assurances auprès de laquelle a été souscrit le contrat pour le ou les véhicules utilisés pendant l’apprentissage sur l’extension de garantie nécessaire . Cet accord précise le ou les noms des accompagnateurs autorisés par la société d’assurances à assurer cette fonction.</li>
+		<li>et une autorisation de conduire en conduite supervisée délivrée par l’enseignant à l’issue d’un rendez-vous préalable de 2 heures comprenant une heure minimum de conduite et un bilan personnalisé.</li>
+	</ul>
+</div>
+
+<div class="content">
+<h2>Comment se déroule l’apprentissage de la conduite supervisée ?</h2>
+<p>La durée minimale de la phase de conduite supervisée est de 3 mois et l’élève doit parcourir au moins 1.000 kilomètres (au lieu d’un an et 3.000 kilomètres pour l’apprentissage anticipé de la conduite).</p>
+<p>Le véhicule utilisé doit être équipé d’un signe distinctif « conduite accompagnée » apposé à l’arrière.</p>
+<p>L’élève doit participer à un rendez-vous pédagogique avec l’enseignant et un accompagnateur au moins.</p>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>à savoir</h2>
+<p>Pour les jeunes âgés de moins de 16 ans, la copie de l’attestation de recensement ou du certificat individuel de participation à la journée défense et citoyenneté (JDC) ou de l'attestation individuelle d'exemption n’est pas requise pour l'inscription.</p>
+<p>Toutes les règles du code de la route doivent être respectées par vous comme par votre accompagnateur.</p>
+</div>
+<h2>mais en plus</h2>
+	<ul>
+		<li>vous ne pouvez pas conduire en dehors des frontières nationales ;</li>
+		<li>vous devez respecter les limitations de vitesse qui s'appliquent aux conducteurs novices.</li>
+	</ul>
+<h2>Attention</h2>
+<p>en conduite accompagnée, ayez toujours avec vous le formulaire de demande de permis de conduire ou sa photocopie, le livret d’apprentissage et le document d’extension de garantie de l’assurance. Seul le formulaire de demande de permis de conduire permet de justifier de la situation d’apprentissage de la conduite, en cas de contrôle par les forces de l’ordre.</p>
 
 </div>
 
