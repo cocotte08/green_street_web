@@ -29,14 +29,21 @@ body{
 #permistradi{
   background-image: url('../images/permis_tradi.jpeg');
   background-repeat: no-repeat;
-  height: 250px;
+  height: 300px;
   background-size: cover;
   background-position: center;
 }
 #accompagne{
   background-image: url('../images/conduite_accompagnee.jpeg');
   background-repeat: no-repeat;
-  height: 250px;
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+}
+#supervise{
+  background-image: url('../images/conduite_supervisee.jpeg');
+  background-repeat: no-repeat;
+  height: 300px;
   background-size: cover;
   background-position: center;
 }
