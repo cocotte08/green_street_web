@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Green Street, auto-école</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- Leave those next 4 lines if you care about users using IE8 -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img id="logo1" alt="auto-école" src="images/logo_greenstreet.png" width="180"></a>      
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			 <ul class="nav navbar-nav navbar-left">
+				<li><a href="quisommesnous.html">Notre philosophie</a></li>
+				<!-- <li><a href="realisations.html">Nos offres de permis</a></li> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">nos offres de permis <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="permis-auto.html">Formation traditionnelle</a></li>
+						<li><a href="permis-boite-auto.html">Formation boite auto</a></li>
+						<li><a href="conduite-accompagnee.html">Conduite accompagnée</a></li>
+						<li><a href="conduite-supervisee.html">Conduite supervisée</a></li>
+					</ul>
+				</li>          
+			 <li><a href="outils.html">boite à outils</a></li>
+				<li><a data-toggle="modal" href="#contactform">nous contacter</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://www.facebook.com/greenstreetautoecole/" target="blank"><i class="fa fa-facebook"></i></a></li>
+				<!-- <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li> -->
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="contactform" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+       <iframe id="JotFormIFrame-72514647284360" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotformeu.com/72514647284360" frameborder="0" style="width: 1px; min-width: 100%; height:539px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-72514647284360"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>    
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="wrapper offres">
+	<div class="lead">  
+		<h1>formation traditionnelle</h1>
+		<img class="featurette-image img-responsive center-block" src="images/a_permis_de_conduire.png" alt="Generic placeholder image" width="90px">
+	</div>
+</div>
+
+<div id="permistradi"></div>
+
+<div id="conduite" class="container">
+
+<div class="content">
+<h2>Quels véhicules peut-on conduite avec le Permis B ?</h2>
+	<p>Le permis B permet de conduire les véhicules dont :</p>
+	<ul>
+		<li>dont le PTAC (poids total autorisé en charge) n'excède pas 3,5 tonnes, qu'il soit affecté au transport de personnes ou de marchandises ;
+disposant de 9 places assises maximum ;</li>
+		<li>avec une remorque dont le PTAC :</li>
+			<ul>
+				<li>est inférieur ou égal à 750 kg ;</li>
+				<li>est supérieur à 750 kg s'il ne dépasse pas le poids à vide du véhicule et que le PTAC du véhicule et de la remorque ne dépasse pas 3,5 tonnes.</li>
+			</ul>
+	</ul>
+	<p>Il permet également la conduite de véhicules accessibles avec d'autres permis :</p>
+	<ul>
+		<li>Le permis B1 qui permet de conduire 2 types de véhicules: les tricycles a moteur dont la puissance n’excède pas 15kW soit 20,4ch et dont le poids a vide n’excède pas 550kgs, les quadricycles lourds a moteur dont la puissance moteur n’excède pas 15kW et dont le poids a vide n’excède pas 400kgs pour le transport de personnes, 550kgs pour le transports de marchandises.</li>
+		<li>Le permis A1 à condition d'avoir au moins 2 ans d'ancienneté de permis et de suivre une formation.</li>
+	</ul>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>Permis B, pour qui ?</h2>
+<p>La possibilité de s'inscrire au permis de conduire B est soumise à des conditions d’âge suivant la filière choisie :</p>
+	<ul>
+		<li>Si vous optez pour la conduite accompagnée, l’inscription se fait dès 15 ans et le passage pratique de l’examen se fait a partir de 17ans 1/2, vous conduirez ensuite 6 mois avec vos parents avant de pouvoir prendre la route seul au volant dès votre majorité.</li>
+		<li>Si vous optez pour le permis classique, vous passez votre code dès 17 ans 1/2 et votre examen conduite se fera dès 18 ans.</li>
+	</ul>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>Qu'est-ce que l'attestaion de sécurité routière ?</h2>
+<p>L'attestation de sécurité routière (ASR) est une formation théorique nécessaire pour accéder à la conduite d'un véhicule à moteur et ainsi passer les permis moto ou voiture, mais aussi pour passer le permis AM, anciennement appelé BSR</p>
+<p>On distingue l'ASR qui se prépare de façon individuelle de l'attestation scolaire de sécurité routière (ASSR) qui se prépare au sein des établissements scolaires.</p>
+<p>Au niveau de l'ASSR, on distingue :</p>
+	<ul>
+		<li>ASSR 1 : obligatoire pour passer le permis AM (BSR).</li>
+		<li>ASSR 2 : obligatoire pour passer un permis de conduire.</li>
+	</ul>
+<p>L'attestation de sécurité routière s'adresse aux jeunes nés à partir du 1er janvier 1988 qui ne sont pas scolarisés. Les élèves scolarisées passent quant à eux l'attestation scolaire de sécurité routière.</p>
+<p>L'ASR, c’est les pour les personnes agées de 16 ans minimum, non scolarisés, non titulaires de l’assr 1 qui souhaitent passer le bsr et non titulaire de l’assr 2 qui souhaitent passer un permis de conduire</p>
+<p>L'attestation de sécurité routière est délivrée à l'issue d'une épreuve constituée d'une série de 20 questions à choix multiples, les questions se présentes sous forme de séquences animés portant sur les règles élémentaires de la sécurité routière.</p>
+<p>Ceux qui obtiennent au moins 10/20 à l'épreuve reçoivent l'attestation de sécurité routière, ou l'attestation scolaire de sécurité routière lorsque l'épreuve est passée dans le cadre scolaire.</p>
+<p>Ceux qui échouent peuvent repasser l'épreuve.</p>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>Comment se déroule l’Apprentissage anticipé de la conduite ?</h2>
+<p>La conduite avec l'accompagnateur se déroule sur une durée d'au moins un an et une distance parcourue de 3 000 km minimum.</p>
+<p>Cette période débute par un rendez-vous préalable et est ponctuée de deux rendez-vous pédagogiques obligatoires.</p>
+<p>Le rendez-vous préalable a lieu en présence de l'enseignant et du futur accompagnateur, au moment où l'enseignant estime que l'élève est prêt à conduire avec son accompagnateur. L'enseignant dispense alors ses conseils aux deux parties pour bien commencer la période de conduite accompagnée.</p>
+<p>Le 1er rendez-vous pédagogique a lieu entre quatre et six mois après la date de délivrance de l'attestation de fin de formation initiale. C'est généralement un rendez-vous collectif avec d'autres élèves et leurs accompagnateurs.</p>
+<p>Le 2ème rendez-vous pédagogique a lieu après 3 000km parcourus.</p>
+<p>Lors de ces rendez-vous pédagogiques, animés par un enseignant de la conduite, les élèves sont invités à échanger sur leurs premières expériences et sur des thèmes de sécurité routière. Une phase de conduite est également prévue pour mesurer les progrès réalisés par l'élève et apporter les conseils nécessaires pour continuer la conduite accompagnée dans de bonnes conditions.</p>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="content">
+<h2>à savoir</h2>
+<p>Pour les jeunes âgés de moins de 16 ans, la copie de l’attestation de recensement ou du certificat individuel de participation à la journée défense et citoyenneté (JDC) ou de l'attestation individuelle d'exemption n’est pas requise pour l'inscription.</p>
+<p>Toutes les règles du code de la route doivent être respectées par vous comme par votre accompagnateur.</p>
+</div>
+<h2>mais en plus</h2>
+	<ul>
+		<li>vous ne pouvez pas conduire en dehors des frontières nationales ;</li>
+		<li>vous devez respecter les limitations de vitesse qui s'appliquent aux conducteurs novices.</li>
+	</ul>
+<h2>Attention</h2>
+<p>en conduite accompagnée, ayez toujours avec vous le formulaire de demande de permis de conduire ou sa photocopie, le livret d’apprentissage et le document d’extension de garantie de l’assurance. Seul le formulaire de demande de permis de conduire permet de justifier de la situation d’apprentissage de la conduite, en cas de contrôle par les forces de l’ordre.</p>
+
+</div>
+
+
+<div class="vertical-spacer"></div>
+
+<footer id="footer" role="contentinfo">
+	<div class="container">
+		<div class="col-xs-12 col-md-8">
+			<h4><img id="logo2" alt="auto-école" src="images/logo_greenstreet_white.png" width="160">Prêt à passer votre permis de conduire ?</h4>
+			<p id="baseline-footer">Green Street est une <b>auto-école</b> basée à Meudon proposant <b>différents types de permis</b> :
+			<ul id="permis">
+				<li><a href="">formation traditionnelle,</a></li>
+				<li><a href="">formation boite automatique,</a></li>
+				<li><a href="">conduite accompagnée,</a></li>
+				<li><a href="">conduite supervisée.</a></li>
+			</ul>
+			</p>         
+			<h4>Passez le permis de conduire avec Green Street !</h4>
+			<p><a id="facebook" href="https://www.facebook.com/greenstreetautoecole/" target="blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>  Nous suivre sur Facebook</a></p>
+		</div>    
+		<div class="col-xs-12 col-md-4"></div>
+		<h4>Où nous trouver ?</h4>
+		<ul>
+			<li>GREEN STREET Auto-école</li>
+			<li>92 rue Henri Barbusse</li>
+			<li>92 190 Meudon</li>
+			<li><i class="fa fa-phone-square" aria-hidden="true"></i>  01 75 40 23 31</li>        
+		</ul>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.7025192092397!2d2.2388354156725607!3d48.806655979282475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67a451533555f%3A0xe7b9018da19ac9e3!2s92+Rue+Henri+Barbusse%2C+92190+Meudon!5e0!3m2!1sfr!2sfr!4v1503046620982" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+</footer>
+
+
+
+
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</body>
+</html>

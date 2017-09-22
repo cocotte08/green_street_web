@@ -8,22 +8,40 @@ body{
 /* WRAPPER
 -------------------------------------------------- */
 #home.wrapper{
-  background-image: url('../images/fotolia_157236611.jpg');
+  background-image: url('../images/auto_verte.jpeg');
   background-repeat: no-repeat;
   height: 650px;
   background-size: cover;
   padding-top: 80px;
   text-align: center;
-  color: white;  
+  color: white;
+  background-position: center;
 }
 .offres.wrapper{
   background-color: #16aa7a;
-  height: 275px;
+  height: 240px;
   background-size: cover;
   padding-top: 80px;
   text-align: center;
   color: white;
   text-transform: uppercase;
+}
+#permistradi{
+  background-image: url('../images/permis_tradi.jpeg');
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+#accompagne{
+  background-image: url('../images/conduite_accompagnee.jpeg');
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+#philo{
+  margin-top: 100px;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -104,7 +122,6 @@ a#myButton.btn.btn-primary.btn-lg{
 }
 
 /*H*/
-
 h2{
   color:#16aa7a;
   font-size: 20px;
@@ -120,6 +137,12 @@ h4{
 	font-size: 20px;
   color: black;
 	font-weight: bold;
+}
+.offres.wrapper h1{
+  font-size: 24px;
+}
+#conduite h2{
+  font-size: 16px;
 }
 
 /*footer*/
@@ -196,4 +219,10 @@ img.featurette-image.img-responsive.center-block{
 }
 #conduite li {
   list-style: inherit;
+}
+i.fa.fa-cogs{
+  font-size: 50px;
+}
+#greg{
+  border-radius: 50%
 }
